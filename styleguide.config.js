@@ -15,7 +15,8 @@ module.exports = {
         {
             name: 'Components',
             components: [
-                path.resolve(__dirname, 'src/components/Message', 'Message.js')
+                path.resolve(__dirname, 'src/components/HighlightMessage', 'HighlightMessage.js'),
+                path.resolve(__dirname, 'src/components/TextShadow', 'TextShadow.js')
             ]
         }
     ],
